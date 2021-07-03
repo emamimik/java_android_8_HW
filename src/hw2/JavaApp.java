@@ -18,7 +18,7 @@ public class JavaApp {
 
     public static void fillArray(String[] args) {
         int[] array = new int[8];
-        int j = 1;
+        int j = 0;
 
         for (int i = 0; i < array.length; i++, j = j + 3)
             array[i] = j;
