@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         Animal[] animals = {
-                new Cat("Vaska", "blac", 2, 150, 0),
+                new Cat("Blanshic", "white", 19, 150, 0),
                 new Dog("Baikal", "Grey", 7, 150, 9)
         };
         for (int i = 0; i < animals.length; i++) {
