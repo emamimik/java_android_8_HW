@@ -12,7 +12,7 @@ public class Cat extends Animal {
         @Override
         public void ran() {
             if (MAX_RUN < 200) {
-                System.out.println(name + "ran " + " " + MAX_RUN + "m");
+                System.out.println(name + " ran " + " " + MAX_RUN + "m");
             } else {
                 System.out.println("it won't run");
             }
