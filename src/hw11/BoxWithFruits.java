@@ -23,7 +23,7 @@ public class BoxWithFruits <T extends Fruct> {
         return w;
     }
     public boolean sameAwg(BoxWithFruits<?> another) {
-        return Math.abs(this.getWeight() - another.getWeight()) < 0,001;
+        return Math.abs(this.getWeight() - another.getWeight()) < 0.001;
     }
     public void transfer(BoxWithFruits<? super T> another) {
         if (another == this) {
